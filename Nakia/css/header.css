@@ -1,0 +1,77 @@
+
+.large-article-header {
+  background: url("file:///C:/Users/Nakia/Pictures/Saved%20Pictures/golden%20luxe%20logo.png") no-repeat center;
+  background-size: cover;
+  height: 22.25rem;
+  position: relative;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .large-article-header {
+    height: 20.83333rem;
+  }
+}
+
+.large-article-header-content {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  bottom: 3.125rem;
+  left: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .large-article-header-content {
+    bottom: 1.25rem;
+  }
+}
+
+.large-article-header-content .center-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .large-article-header-content .center-container {
+    width: 100%;
+    padding: 0 1.25rem;
+  }
+}
+
+.large-article-header-content .article-date {
+  color: #fefefe;
+}
+
+.large-article-header-content .article-title h1 {
+  line-height: 3.125rem;
+  color: #fefefe;
+  font-weight: 600;
+  font-family: 'Cormorant', serif;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .large-article-header-content .article-title h1 {
+    line-height: 1.875rem;
+  }
+}
+
+.large-article-header-content .article-details {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.large-article-header-content .article-details a {
+  color: #fefefe;
+}

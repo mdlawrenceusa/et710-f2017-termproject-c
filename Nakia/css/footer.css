@@ -1,0 +1,37 @@
+.marketing-site-footer-bottom {
+  background: rgba(159, 9, 0, 1);
+  padding: 1rem 0;
+}
+
+.marketing-site-footer-bottom p,
+.marketing-site-footer-bottom .menu {
+  margin-bottom: 0;
+}
+
+.marketing-site-footer-bottom .marketing-site-footer-bottom-links {
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content:center;
+}
+
+.marketing-site-footer-bottom .marketing-site-footer-bottom-links a {
+  color: white;
+  font-family: 'Cormorant', serif;
+  font-size: 20px;
+  margin-right: 25px;
+  text-align: center;
+}
+
+@media screen and (max-width: 63.9375em) {
+  .marketing-site-footer-bottom .marketing-site-footer-bottom-links {
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 63.9375em) {
+  .marketing-site-footer-bottom {
+    text-align: center;
+  }
+}
