@@ -1,0 +1,16 @@
+
+.fullscreen-image-slider .orbit-image {
+  width: 20%;
+  height: 20vh;
+}
+
+.fullscreen-image-slider .orbit-caption {
+  bottom: 25%;
+  -webkit-transform: translateY(50%);
+      -ms-transform: translateY(50%);
+          transform: translateY(50%);
+  background: none;
+  text-align: center;
+  color: #fefefe;
+  font-weight: bold;
+}
